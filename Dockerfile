@@ -14,8 +14,7 @@ RUN apt-get update && \
     rm -rf /var/lib/apt/lists/*
 
 # Install xml-to-json
-RUN \
-  cabal update && cabal install xml-to-json
+RUN cabal update && cabal install xml-to-json
 ENV PATH /root/.cabal/bin:$PATH
 
 # Define working directory.
