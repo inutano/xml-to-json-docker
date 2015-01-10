@@ -3,7 +3,7 @@
 # VERSION 0.1
 
 # Pull base image.
-FROM inutano/debian-utf8
+FROM inutano/debian-utf8:latest
 
 # :)
 MAINTAINER Tazro Inutano Ohta, inutano@gmail.com
